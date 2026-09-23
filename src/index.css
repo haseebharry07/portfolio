@@ -1,4 +1,37 @@
 @import "tailwindcss";
+
+:root {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #f3f5f9;
+  background: #070b14;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #070b14;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+@import "tailwindcss";
 :root {
   --text: #6b6375;
   --text-h: #08060d;
